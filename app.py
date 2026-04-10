@@ -93,7 +93,12 @@ html_content = """
     
     // 【請在這裡填入您的 Firebase Config】 
     // 若未填寫，系統將自動以「本地展示模式」運行
-    let firebaseConfig = {};
+    let firebaseConfig = {apiKey: "AIzaSyCwakoLl7L3P0HSo18Gpl5YoNzUYdW1JGk",
+  authDomain: "tmuh-91de9.firebaseapp.com",
+  projectId: "tmuh-91de9",
+  storageBucket: "tmuh-91de9.firebasestorage.app",
+  messagingSenderId: "125938178644",
+  appId: "1:125938178644:web:684ad4d3eacbb0f102ebc1"};
     if (typeof __firebase_config !== 'undefined') {
         try { firebaseConfig = JSON.parse(__firebase_config); } catch(e){}
     }
